@@ -1,5 +1,7 @@
 # 📊 Actividad: TF-IDF | Emotion Dataset
 
+## Minería de Datos
+
 El código de este proyecto muestra un ejemplo completo de cómo procesar, analizar y clasificar un conjunto de datos de emociones utilizando TF-IDF y un modelo de aprendizaje automático.
 
 ## 📁 Estructura del Proyecto
