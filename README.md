@@ -24,27 +24,14 @@ El código de este proyecto muestra un ejemplo completo de cómo procesar, anali
 ```
 
 ##  📦 Librerías Utilizadas
-# Importar las bibliotecas esenciales
-import pandas as pd  # Manejo de datos
-import numpy as np   # Operaciones numéricas
-import matplotlib.pyplot as plt  # Visualizaciones básicas
-import seaborn as sns  # Visualizaciones avanzadas
-import nltk  # Procesamiento del lenguaje natural (PLN)
-import subprocess  # Ejecución de comandos del sistema operativo
-import zipfile  # Trabajo con archivos ZIP
+Las siguientes librerías de Python se utilizan en este proyecto:
 
-# NLTK y otras utilidades
-import nltk
-import os
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-from nltk.stem import WordNetLemmatizer
-import re
-import string
-from shutil import move
-
-# Instalación de WordCloud
-!pip install wordcloud
+* Pandas - Manejo de datos
+* Numpy - Operaciones numéricas
+* Matplotlib - Visualizaciones básicas
+* Seaborn - Visualizaciones avanzadas
+* NLTK - Procesamiento del lenguaje natural (PLN)
+* Wordcloud - Generación de nubes de palabras
 
 
 ## 📊 Descripción del Proyecto
@@ -52,19 +39,19 @@ Este proyecto tiene como objetivo analizar un conjunto de datos de emociones uti
 
 ## 📝 Pasos Principales
 
-1.- Preprocesamiento de Datos:
+**1.- Preprocesamiento de Datos:**
 
 * Carga del conjunto de datos
 * Limpieza de texto (eliminación de stopwords, tokenización, lematización)
 
-2.- Análisis Exploratorio de Datos (EDA):
+**2.- Análisis Exploratorio de Datos (EDA):**
 * Visualización de la distribución de las emociones
 * Generación de nubes de palabras (word clouds) para las diferentes emociones
 
-3.- Vectorización TF-IDF:
+**3.- Vectorización TF-IDF:**
 * Conversión del texto preprocesado en vectores TF-IDF
 
-4.- Entrenamiento y Evaluación del Modelo:
+**4.- Entrenamiento y Evaluación del Modelo:**
 * Entrenamiento de un modelo de clasificación utilizando los vectores TF-IDF
 * Evaluación del modelo mediante métricas de precisión, recall y F1-score
 
@@ -77,10 +64,10 @@ Se generan varias visualizaciones que muestran el análisis exploratorio y los r
 
 ## 🚀 Cómo Empezar
 
-* Clona este repositorio: git clone https://github.com/Jhostyn-2003/TF-IDF-Analisis-emociones.git
-* Navega al directorio del proyecto: cd TF-IDF
-* Instala las dependencias necesarias: pip install -r requirements.txt
-* Ejecuta el notebook para ver el análisis completo: jupyter notebook GavilanezJhostyn_tf-idf-emotion-dataset.ipynb
+* Clona este repositorio: ```git clone https://github.com/Jhostyn-2003/TF-IDF-Analisis-emociones.git```
+* Navega al directorio del proyecto: ```cd TF-IDF```
+* Instala las dependencias necesarias:``` pip install -r requirements.txt```
+* Ejecuta el notebook para ver el análisis completo: ```jupyter notebook GavilanezJhostyn_tf-idf-emotion-dataset.ipynb```
 
 ## ✨ Contribuciones
 ¡Las contribuciones son bienvenidas! Siéntete libre de abrir un issue o enviar un pull request para mejorar el proyecto.
